@@ -7,74 +7,78 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        >
+        android:layout_weight="1">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="red"
-            android:gravity="center_horizontal"
-            android:layout_weight="1"
-            android:background="#aa0000"
-            />
+            android:background="@color/colorRojo"
+            android:text="@string/rojo"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="green"
-            android:gravity="center_horizontal"
-            android:layout_weight="1"
-            android:background="#00aa00"
-            />
+            android:background="@color/colorAzul"
+            android:text="@string/azul"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="blue"
-            android:gravity="center_horizontal"
-            android:layout_weight="1"
-            android:background="#0000aa"
-            />
+            android:background="@color/colorVerde"
+            android:text="@string/verde"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="yellow"
-            android:gravity="center_horizontal"
-            android:layout_weight="1"
-            android:background="#aaaa00"
-            />
+            android:background="@color/colorAmarillo"
+            android:text="@string/amarillo"
+            android:gravity="center"
+            android:layout_weight="1"/>
     </LinearLayout>
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        >
-        <TextView
-            android:text="row one"
-            android:textSize="15pt"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="row two"
-            android:textSize="15pt"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="row three"
-            android:textSize="15pt"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="row four"
-            android:textSize="15pt"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_weight="1">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorRojo"
+           android:text="Rojo"
+           android:textSize="15dp"
+           android:layout_weight="1"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorAzul"
+           android:text="Azul"
+           android:textSize="15dp"
+           android:layout_weight="1"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorVerde"
+           android:textSize="15dp"
+           android:text="Verde"
+           android:layout_weight="1"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorAmarillo"
+           android:text="Amarillo"
+           android:textSize="15dp"
+           android:layout_weight="1"/>
+   </LinearLayout>
 
 </LinearLayout>
